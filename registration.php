@@ -25,57 +25,61 @@
 <h2>Registrarse</h2>
 <hr/>
 </body>
->
-<div action="registers.php" method="POST"   align="center">
-
+<form action="registers.php" method="POST">
 
              <center>
              <table border=0>
              <tr>
              </div></div>
 			 <div class="col-md-12 col-sm-12 contact-form">
-             <label>Nombre:</label>
+            <label>Nombre:</label>
 			 <input type="text" placeholder="Intoduce Nombre " name="nombreCompleto" required>
                    
            </div>
-					 <div class="col-md-12 col-sm-12 contact-form">
-            <label>fechanacimiento:</label>
+		    <div class="col-md-12 col-sm-12 contact-form">
+             <label>fechanacimiento:</label>
 			<input type="date" placeholder="Intoduce fecha de nacimiento" name="fechaNacimiento" required>
-                   
-					    </div>
-				
-					
-            <div class="col-md-12 col-sm-12 contact-form">
-             <label>correo*:</label>
+  </div>
+<div class="col-md-12 col-sm-12 contact-form">
+                   <label>correo*:</label>
 			 <input type="text" placeholder="Intoduce correo electronico" name="correo" required>
                    
            </div>
+<div class="col-md-12 col-sm-12 contact-form">
         <label>celular:</label>
 			<input type="int" placeholder="Intoduce celular" name="celular" >
 		   </div>
-		    &nbsp; &nbsp; &nbsp; 
+		   
+<div class="col-md-12 col-sm-12 contact-form">
         <label>telefono:</label>
 			<input type="int" placeholder="Intoduce telefono" name="telefono" >
-		   </div>    &nbsp; &nbsp;&nbsp;
-                   
+		   </div>    
+                   <div class="col-md-12 col-sm-12 contact-form">
 		 <label for="genero">Genero:</label>
          <select id="genero" name="genero" >
 		 <option value="">-- Selecciona una opcion--</option>
         <option value="masculino">Masculino</option>
-		<option value="lfemenino">Femenino</option>
+		<option value="femenino">Femenino</option>
        
-    </select>
-	</div>
-                          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+</label>
+</div>
+        
+                      
       
-			 <div class="col-md-12 col-sm-12 contact-form">
-            <label>Fecha Ingreso:</label>
-                    <input type="date" placeholder="Intoduce fecha ingreso" name="fechaingreso" >
-                     </div>
+			<div class="col-md-12 col-sm-12 contact-form">
+             <label>fecha ingreso:</label>
+			<input type="date" placeholder="Intoduce fecha de ingreso" name="fechaingreso" required>
+                   
+           </div>
+					
+                   
+      
 					 
-	
+          
+			
 					  <div class="clearfix">
       <button type="submit" class="signupbtn">Registrarse</button>
 	  <button type="reset" class="cancelbtn">Cancelar</button>
     </div>
-</form>             
+</form>
+         
